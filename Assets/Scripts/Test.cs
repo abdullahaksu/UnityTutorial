@@ -2,21 +2,38 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+
    int number = 5;
-   float sayi = 5.5f;
 
-   string isim = "abdullah";
+   int number2 = 6;
+   void Start()
 
-   bool dogruMu=true;
+   {
+      Debug.Log("Debug logu. açıklama");
 
-   string test = "Test değişkeni";
+      if (number > 6)
+      {
+
+         Debug.Log("Number is bigger than 6!");
+      }
+      else
+      {
+         Debug.Log("Number is not bigger than 6!");
+      }
+
+   }
+
+   void Update()
+
+   {
 
 
+   }
 
    void testFunction()
    {
-      number=7;   
-      
+
+
    }
 
 
