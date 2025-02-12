@@ -9,8 +9,13 @@ public class Test : MonoBehaviour
 
    bool dogruMu=true;
 
+   string test = "Test değişkeni";
+
+
+
    void testFunction()
    {
+      number=7;   
       
    }
 
