@@ -1,3 +1,4 @@
+using System.Data.Common;
 using UnityEngine;
 
 public class Test : MonoBehaviour
@@ -21,11 +22,15 @@ public class Test : MonoBehaviour
          Debug.Log("Number is not bigger than 6!");
       }
 
+
+      testFunction();
    }
 
    void Update()
 
    {
+
+      testDonguler();
 
 
    }
@@ -33,7 +38,28 @@ public class Test : MonoBehaviour
    void testFunction()
    {
 
+      if (number < number2)
+      {
+         Debug.Log("1. sayı, ikinci sayıdan küçük");
+      }
+      else
+      {
+         Debug.Log("İkinci sayı, birinci sayıdan küçük");
+      }
+   }
 
+   void testDonguler()
+   {
+
+      for (int i = 0; i < 5; i++)
+      {
+         Debug.Log(i);
+      }
+
+      foreach (var item in collection)
+      {
+         
+      }
    }
 
 
